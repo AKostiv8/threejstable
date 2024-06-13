@@ -1,0 +1,12 @@
+# (uncomment to add a dependency)
+dependencies:
+ - name: threejstable
+   version: 0.0.1
+   src: htmlwidgets
+   script:
+    - threejstable.js
+    - lib/three.js
+    - lib/Tween.min.js
+    - lib/controls/TrackballControls.js
+    - lib/renderers/CSS3DRenderer.js
+    - main.js
