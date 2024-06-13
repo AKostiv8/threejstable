@@ -7,7 +7,7 @@ ui <- fluidPage(
 
 server <- function(input, output, session) {
   output$widgetOutput <- renderThreejstable(
-    threejstable("Hello world!")
+    threejstable("countries")
   )
 }
 
